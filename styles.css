@@ -475,7 +475,7 @@ body{
 }
 
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 575px){
   .text-center-custom{
     text-align: center;
   }
@@ -484,4 +484,37 @@ body{
     margin-left: 50%;
     transform: translate(-50%,0);
   }
+
+  .container-1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 99999;
+    background-color: #fff;
+    border: 2px solid black;
+    height: auto;
+    width: 80%;
+    min-height:300px;
+    overflow: auto;
+  }
+
+  .closebtn {
+  position: absolute;
+  top: 0;
+  right: 5%;
+}
+
+.btn-ring{
+  width: 100% !important;
+  margin-right: 10px;
+}
+
+#imgtext{
+  font-size: 20px;
+}
+
+#expandedImg{
+  transform: scale(2.0,2.0);
+}
 }
